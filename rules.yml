@@ -1,0 +1,26 @@
+prefixes:
+  rdf: http://www.w3.org/1999/02/22-rdf-syntax-ns#
+  rdfs: http://www.w3.org/2000/01/rdf-schema#
+  grel: http://users.ugent.be/~bjdmeest/function/grel.ttl#
+  idlab-fn: http://example.com/idlab/function/
+  grelm: http://fno.io/grel/rmlmapping#
+  temp: http://example.com/temp/
+
+mappings:
+  act:
+    sources:
+      - [main.xml~xpath, //act]
+    subjects: "temp:$(//preface/p/docNumber)"
+    predicateobjects:
+      - predicates: temp:id
+        objects:
+          - function: grel:parsePointLat
+            parameters:
+              - [grel:valueParameter, "50.2"]
+      # - predicates: temp:id
+      #   objects:
+      #     - function: grel:string_replace
+      #       parameters:
+      #         - [grel:valueParameter, "50.2"]
+      #         - [grel:p_string_find, "."]
+      #         - [grel:p_string_replace, "--"]

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<akomaNtoso xmlns="http://docs.oasis-open.org/legaldocml/ns/akn/3.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+<act>
+    <meta></meta>
+    <preface>
+        <p>
+           <docNumber>30.12.1993/1501</docNumber>
+           <docTitle>Arvonlisäverolaki</docTitle>
+        </p>
+     </preface>
+     <preamble>
+        <formula name="enactingClause">
+           <p>Eduskunnan päätöksen mukaisesti säädetään:</p>
+        </formula>
+     </preamble>
+     <body>
+        <hcontainer>
+            <part eId="part_1">
+                <num>I OSA</num>
+                <chapter eId="part_1__chp_1">
+                   <num>1 luku</num>
+                   <heading eId="part_1__chp_1__heading">Yleinen soveltamisala</heading>
+                   <section eId="part_1__chp_1__sec_1">
+                      <num>1 §</num>
+                      <subsection eId="part_1__chp_1__sec_1__subsec_1">
+                         <intro eId="part_1__chp_1__sec_1__subsec_1__intro">
+                            <p>Arvonlisäveroa suoritetaan valtiolle sen mukaan kuin tässä laissa säädetään:</p>
+                         </intro>
+                         <paragraph eId="part_1__chp_1__sec_1__subsec_1__para_1">
+                            <num>1)</num>
+                            <content>
+                               <p>liiketoiminnan muodossa Suomessa tapahtuvasta tavaran ja palvelun myynnistä;</p>
+                            </content>
+                         </paragraph>
+                         <paragraph eId="part_1__chp_1__sec_1__subsec_1__para_2v19941486" version="@19941486" versionLabel="29.12.1994/1486">
+                            <num>2)</num>
+                            <content>
+                               <p>Suomessa tapahtuvasta tavaran maahantuonnista;</p>
+                            </content>
+                         </paragraph>
+                      </subsection>
+                   </section>
+                   </chapter>
+                   </part>
+        </hcontainer>
+     </body>
+</act>
+</akomaNtoso>
